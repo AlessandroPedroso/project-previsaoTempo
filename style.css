@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior{
+    background-color: black;
+    width: 95%;
+    max-width: 420px;
+    /* width: 430px; */
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+.caixa-media{
+    margin-top: 30px;
+
+}
+.caixa-menor{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+.lupa{
+
+    width: 20px;
+}
+
+h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.temp{
+    color: white;
+}
+
+.descricao{
+    color: white;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: white;
+}
+
+.distancia{
+     margin-top: 20px;
+}
+
